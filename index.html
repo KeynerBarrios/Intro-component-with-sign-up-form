@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+
+  <div class="conainter">
+
+    <section class="container__info">
+      <h1 class="container__info__title">Learn to code by watching others</h1>
+      <p class="container__info__paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+
+    <section class="contianer__content">
+      <div class="container__content__offer">
+        <p class="container__content__offer__paragraph">Try it free 7 days <span class="container__content__offer_span">then $20/mo. thereafter</span></p>
+      </div>
+
+      <form class="container__content__date">
+        <input type="text" class="ccontainer__content__date__input" id="FirstName" placeholder="First Name">
+        <p class="container__content__date__alert" id="FirstNameAlert">First Name cannot be empty</p>
+
+        <input type="text" class="ccontainer__content__date__input" id="LastName" placeholder="Last Name ">
+        <p class="container__content__date__alert" id="LastNameAlert">Last Name cannot be empty</p>
+
+        <input type="email" class="ccontainer__content__date__input" id="EmailAddress" placeholder="Email Address">
+        <p class="container__content__date__alert1" id="EmailAddressAlert">Email Address cannot be empty</p>
+
+        <input type="password" class="ccontainer__content__date__input" id="Password" placeholder="Password">
+        <p class="container__content__date__alert" id="PasswordAlert">Password cannot be empty</p>
+
+        <input class="container__content__date__botton" type="submit" value="Claim your free trial">
+
+        <p class="container__content__terms">By clicking the button, you are agreeing to our <span class="container__content__terms2">
+          Terms and Services</span>
+        </p>
+      </form>
+    </section>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/KeynerBarrios?tab=repositories" target="_blank">Keyner Barrios</a>.
+    </p>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>

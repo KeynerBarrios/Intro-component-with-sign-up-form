@@ -1,0 +1,225 @@
+:root{
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue: hsl(248, 32%, 49%);
+    --Dark-Blue: hsl(249, 10%, 26%);
+    --Grayish-Blue: hsl(246, 25%, 77%);
+    --white: #fff;
+    --new: #FFF6F3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    Font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: url("./images/bg-intro-mobile.png");
+    background-color: var(--Red);
+}
+
+.conainter{
+    margin: 95px 25px 65px 25px;
+}
+
+.container__info__title{
+    color: var(--white);
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-bottom: 20px;   
+}
+
+.container__info__paragraph{
+    color: var(--new);
+    text-align: center;
+    font-size: 0.98em;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.container__content__offer{
+    background-color: var(--Blue);
+    text-align: center;
+    padding: 15px 50px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px #0000002a;
+}
+
+.container__content__offer__paragraph{
+    color: var(--white);
+    font-weight: 600;
+}
+
+.container__content__offer_span{
+    color: var(--new);
+    font-weight: 300;
+}
+
+.container__content__date{
+    background-color: var(--white);
+    padding: 10px 20px 25px 20px ;
+    border-radius: 10px;
+    box-shadow: 0px 10px #0000002a;
+}
+
+.ccontainer__content__date__input{
+    width: 100%;
+    padding: 20px 0 20px 16px;
+    border: 1px solid var(--Grayish-Blue);
+    border-radius: 5px;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    background-position: 220px;
+    margin-top: 15px;
+}
+
+.ccontainer__content__date__input:focus{
+    outline: none;
+    box-shadow: 0 0 2px ;
+}
+
+.ccontainer__content__date__input::placeholder{
+    color: #676565;
+    font-weight: 700;
+    font-size: 1.1em; 
+}
+
+.container__content__date__alert{
+    color: var(--Red);
+    font-size: 0.7em;
+    margin-left: 115px;
+    display: none;
+}
+
+.container__content__date__alert1{
+    color: var(--Red);
+    font-size: 0.7em;
+    margin-left: 90px;
+    display: none;
+}
+
+.container__content__date__botton{
+    width: 100%;
+    text-align: center;
+    height: 56px;
+    background-color: var(--Green);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px -4px  #00000015 inset;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.container__content__date__botton:hover{
+    cursor: pointer;
+}
+
+.container__content__terms{
+    font-size: 0.69em;
+    color: var(--Grayish-Blue);
+    text-align: center;
+    margin: 0 12px 0px 12px;
+}
+
+.container__content__terms2{
+    color: var(--Red);
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: var(--white)
+}
+
+@media (min-width: 850px){
+    .conainter{
+        display: flex;
+        align-items: center;
+        margin: 95px 50px 65px 50px;
+    }
+
+    .container__info{
+        margin-top: 150px;
+        margin-right: 34px;
+    }
+
+    .container__info__title{
+        font-size: 2em;
+        text-align: start;
+        line-height: 35px;
+    }
+
+    .container__info__paragraph{
+        text-align: start;
+        font-size: 0.6em;
+    }
+
+    .ccontainer__content__date__input{
+        background-position: 180px;
+    }
+}
+
+@media (min-width: 1349px){
+
+    .conainter{
+        margin: 75px 163px 53px 160px;
+    }
+
+    .container__info{
+        margin-top: 80px;
+        margin-right: 70px;
+        max-width: 500px;
+    }
+
+    .container__info__title{
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .container__info__paragraph{
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .contianer__content{
+        width: 540px;
+    }
+
+    .container__content__offer{
+        padding: 16px 50px;
+        border-radius: 10px;
+        box-shadow: 0px 6px #0000002a;
+        font-size: 0.8em;
+        margin-bottom: 25px;
+    }
+
+    .ccontainer__content__date__input{
+        background-position: 370px;
+    }
+
+    .container__content__date__alert{
+        margin-left: 255px;
+    }
+
+    .container__content__date__alert1{
+        margin-left: 230px;
+    }
+    .container__content__terms{
+        font-size: 0.6em;
+    }
+
+
+    
+}
